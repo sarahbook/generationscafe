@@ -4,11 +4,17 @@ audio {
 
 h1 {
   text-align: center;
+  margin-top: 54px;
+}
+
+h5 {
+  text-align: center;
 }
 
 .chapter-list {
   display: flex;
   flex-direction: column;
+  margin-top: 42px;
 }
 
 .chapter-tile {
