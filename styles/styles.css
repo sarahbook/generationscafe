@@ -69,5 +69,4 @@ header a:hover {
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
-  /* Ensures the gradient stays in place on scroll */
 }
