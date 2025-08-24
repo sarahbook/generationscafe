@@ -1,10 +1,16 @@
 audio {
   width: 100%;
+  margin-top: 16px;
 }
 
 h1 {
   text-align: center;
   margin-top: 54px;
+}
+
+.chapter-title {
+  margin-top: 48px;
+  text-align: center;
 }
 
 h5 {
@@ -37,6 +43,23 @@ h5 {
 .chapter-tile:hover {
   box-shadow: 4px 8px 8px gray;
   cursor: pointer;
+  box-shadow: var(--pico-box-shadow);
+  background-color: var(--pico-dropdown-hover-background-color)
+}
+
+header {
+  margin-top: 16px;
+}
+
+header a {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  text-decoration: none;
+  color: var(--pico-h1-color);
+}
+
+header a:hover {
   box-shadow: var(--pico-box-shadow);
   background-color: var(--pico-dropdown-hover-background-color)
 }
