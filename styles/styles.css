@@ -1,3 +1,7 @@
+* {
+  --pico-h3-color: #2d3138;
+}
+
 audio {
   width: 100%;
   margin-top: 16px;
