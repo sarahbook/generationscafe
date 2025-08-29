@@ -58,7 +58,7 @@ header {
 header a {
   padding: 12px 24px;
   border-radius: 8px;
-  border: 1px solid gray;
+  border: 1px solid var(--pico-h1-color);
   text-decoration: none;
   color: var(--pico-h1-color);
 }
